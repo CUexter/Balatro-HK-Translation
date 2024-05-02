@@ -101,7 +101,7 @@ return {
                 }
             },
             j_four_fingers = {
-                name = "四隻手指",
+                name = "四指神功",
                 text = {
                     "所有{C:attention}同花{}同埋",
                     "{C:attention}蛇{}可以",
@@ -408,7 +408,7 @@ return {
                 text = {
                     "如果一回合嘅{C:attention}第一次出牌{}",
                     "只有出{C:attention}1{}張牌",
-                    "將永久複製{C:attention}那張牌{}到牌組",
+                    "將永久複製{C:attention}果張牌{}到牌組",
                     "並放到{C:attention}手牌{}"
                 }
             },
@@ -431,7 +431,7 @@ return {
                 name = "第六感",
                 text = {
                     "如果回合第一次出牌為",
-                    "單張數字{C:attention}6{}，將銷毀那張牌並且",
+                    "單張數字{C:attention}6{}，將銷毀果張牌並且",
                     "產生一張隨機嘅{C:spectral}幻靈牌{}",
                     "{C:inactive}(必須有空位)"
                 }
@@ -1024,7 +1024,7 @@ return {
                 name = "天文學家",
                 text = {
                     "商店入面嘅{C:planet}行星牌{}",
-                    "以及{C:planet}天外擴充包{}",
+                    "以及{C:planet}天外星體擴充包{}",
                     "全部{C:attention}免費"
                 },
                 unlock = {
@@ -1162,9 +1162,9 @@ return {
                 }
             },
             j_shortcut = {
-                name = "捷徑",
+                name = "走吓捷徑",
                 text = {
-                    "允許{C:attention}蛇{}能以",
+                           "允許{C:attention}蛇{}能以",
                     "相差1點嘅牌{C:attention}組成",
                     "{C:inactive}(例如：{C:attention}2 3 5 7 8{C:inactive})"
                 }
@@ -1179,7 +1179,7 @@ return {
                 }
             },
             j_vagabond = {
-                name = "流浪者",
+                name = "濁水漂流",
                 text = {
                     "若喺出牌時當下",
                     "擁有{C:money}$#1#{}或更少嘅金錢",
@@ -1265,7 +1265,7 @@ return {
             j_erosion = {
                 name = "侵蝕",
                 text = {
-                    "喺你副牌組中",
+                    "喺你副牌入面",
                     "每張小於{C:attention}#3#{}嘅牌",
                     "均可獲得{C:red}+#1#{}倍數",
                     "{C:inactive}(目前為{C:red}+#2#{C:inactive}倍)"
@@ -1341,8 +1341,8 @@ return {
                 name = "交換卡",
                 text = {
                     "每回合嘅{C:attention}第一次棄牌{}",
-                    "如果只有棄{C:attention}1{}張牌",
-                    "摧毀那張牌並獲得{C:money}$#1#"
+                    "如果只棄{C:attention}1{}張牌",
+                    "摧毀果張牌並獲得{C:money}$#1#"
                 }
             },
             j_flash = {
@@ -1424,7 +1424,7 @@ return {
                 name = "營火",
                 text = {
                     "每{C:attention}賣出{}一張卡牌",
-                    "此小丑獲得{X:mult,C:white}X#1#{}倍數，",
+                    "將獲得{X:mult,C:white}X#1#{}倍數，",
                     "每戰勝{C:attention}Boss盲注{}時重置",
                     "{C:inactive}(目前為{X:mult,C:white}X#2#{C:inactive}倍)"
                 }
@@ -1432,7 +1432,7 @@ return {
         },
         Voucher = {
             v_overstock_norm = {
-                name = "存貨過多",
+                name = "執多件貨",
                 text = {
                     "店內卡牌欄位",
                     "{C:attention}+1{}"
@@ -1470,7 +1470,7 @@ return {
                 }
             },
             v_reroll_surplus = {
-                name = "多次重擲",
+                name = "歡迎再擲",
                 text = {
                     "重擲費用",
                     "減少{C:money}$#1#{}"
@@ -1485,7 +1485,7 @@ return {
             v_telescope = {
                 name = "望遠鏡",
                 text = {
-                    "{C:attention}天外擴充包{}裡面",
+                    "{C:attention}天外星體擴充包{}裡面",
                     "總係會有",
                     "你最常使用{C:attention}牌型{}",
                     "嘅{C:planet}行星牌{}"
@@ -1522,7 +1522,7 @@ return {
                 }
             },
             v_magic_trick = {
-                name = "魔術",
+                name = "魔術小把戲",
                 text = {
                     "{C:attention}商店{}裡面",
                     "有{C:attention}啤牌{}",
@@ -1555,7 +1555,7 @@ return {
                 }
             },
             v_overstock_plus = {
-                name = "存貨過多增強版",
+                name = "執多幾件貨",
                 text = {
                     "店內卡牌欄位",
                     "{C:attention}+1{}"
@@ -1621,7 +1621,7 @@ return {
                 }
             },
             v_reroll_glut = {
-                name = "重擲加強版",
+                name = "擲多幾次",
                 text = {
                     "重擲費用",
                     "減少{C:money}$#1#{}"
@@ -1655,14 +1655,14 @@ return {
                     "給予{X:red,C:white}X#1#{}倍數"
                 },
                 unlock = {
-                    "從任一{C:planet}天外擴充包中",
+                    "從任一{C:planet}天外星體擴充包中",
                     "使用總計{C:attention}#1#張",
                     "{C:planet}行星牌{}",
                     "{C:inactive}(#2#)"
                 }
             },
             v_nacho_tong = {
-                name = "芝士nacho",
+                name = "薯片都夾埋",
                 text = {
                     "每回合",
                     "永久獲得",
@@ -2465,14 +2465,14 @@ return {
                 name = "流星標籤",
                 text = {
                     "獲得一個免費嘅",
-                    "{C:planet}超級天外擴充包"
+                    "{C:planet}超級天外星體擴充包"
                 }
             },
             tag_buffoon = {
                 name = "丑角標籤",
                 text = {
                     "獲得一個免費嘅",
-                    "{C:attention}丑角擴充包"
+                    "{C:attention}可笑丑角擴充包"
                 }
             },
             tag_handy = {
@@ -2555,7 +2555,7 @@ return {
                 name = "永恆標籤",
                 text = {
                     "獲得一個免費嘅",
-                    "{C:spectral}幻靈擴充包"
+                    "{C:spectral}幻靈鬼影擴充包"
                 }
             }
         },
@@ -3164,7 +3164,7 @@ return {
                 }
             },
             p_celestial_normal = {
-                name = "天外擴充包",
+                name = "天外星體擴充包",
                 text = {
                     "從最多{C:attention}#2#張{C:planet}行星牌{}中",
                     "選擇{C:attention}#1#{}張",
@@ -3172,7 +3172,7 @@ return {
                 }
             },
             p_celestial_jumbo = {
-                name = "珍寶天外擴充包",
+                name = "珍寶天外星體擴充包",
                 text = {
                     "從最多{C:attention}#2#張{C:planet}行星牌{}中",
                     "選擇{C:attention}#1#{}張",
@@ -3180,7 +3180,7 @@ return {
                 }
             },
             p_celestial_mega = {
-                name = "超級天外擴充包",
+                name = "超級天外星體擴充包",
                 text = {
                     "從最多{C:attention}#2#張{C:planet}行星牌{}中",
                     "選擇{C:attention}#1#{}張",
@@ -3188,7 +3188,7 @@ return {
                 }
             },
             p_spectral_normal = {
-                name = "幻靈擴充包",
+                name = "幻靈鬼影擴充包",
                 text = {
                     "從最多{C:attention}#2#張{C:spectral}幻靈牌{}中",
                     "選擇{C:attention}#1#{}張",
@@ -3196,7 +3196,7 @@ return {
                 }
             },
             p_spectral_jumbo = {
-                name = "珍寶幻靈擴充包",
+                name = "珍寶幻靈鬼影擴充包",
                 text = {
                     "從最多{C:attention}#2#張{C:spectral}幻靈牌{}中",
                     "選擇{C:attention}#1#{}張",
@@ -3204,7 +3204,7 @@ return {
                 }
             },
             p_spectral_mega = {
-                name = "超級幻靈擴充包",
+                name = "超級幻靈鬼影擴充包",
                 text = {
                     "從最多{C:attention}#2#張{C:spectral}幻靈牌{}中",
                     "選擇{C:attention}#1#{}張",
@@ -3236,21 +3236,21 @@ return {
                 }
             },
             p_buffoon_normal = {
-                name = "丑角擴充包",
+                name = "可笑丑角擴充包",
                 text = {
                     "從最多{C:attention}#2#張{C:joker}小丑牌{}中",
                     "選擇{C:attention}#1#{}張"
                 }
             },
             p_buffoon_jumbo = {
-                name = "珍寶丑角擴充包",
+                name = "珍寶可笑丑角擴充包",
                 text = {
                     "從最多{C:attention}#2#張{C:joker}小丑牌{}中",
                     "選擇{C:attention}#1#{}張"
                 }
             },
             p_buffoon_mega = {
-                name = "超級丑角擴充包",
+                name = "超級可笑丑角擴充包",
                 text = {
                     "從最多{C:attention}#2#張{C:joker}小丑牌{}中",
                     "選擇{C:attention}#1#{}張"
@@ -3457,7 +3457,7 @@ return {
             b_next_round_2 = "回合",
             b_play_hand = "出牌",
             b_discard = "棄牌",
-            b_sort_hand = "整理",
+            b_sort_hand = "排序方式",
             b_run_info_1 = "比賽",
             b_run_info_2 = "資訊",
             b_options = "選項",
@@ -3567,10 +3567,10 @@ return {
             k_hud_discards = "棄牌",
             k_lower_score = "分數",
             k_arcana_pack = "奧秘擴充包",
-            k_celestial_pack = "天外擴充包",
-            k_spectral_pack = "幻靈擴充包",
+            k_celestial_pack = "天外星體擴充包",
+            k_spectral_pack = "幻靈鬼影擴充包",
             k_standard_pack = "標準擴充包",
-            k_buffoon_pack = "丑角擴充包",
+            k_buffoon_pack = "可笑丑角擴充包",
             k_enter_text = "輸入文字",
             k_defeated_by = "擊敗",
             k_level_prefix = "等級",
@@ -3756,8 +3756,9 @@ return {
             ph_score_times_rerolled = "重擲次數",
             ph_score_cards_purchased = "已選購嘅牌",
             ml_edition_seal_enhancement_explanation = {
-                "每張啤牌可能會有",
-                "加強、版本與封蠟 各一版本"
+                "每張卡牌分別可以擁有",
+                "一項加強、一個版本 以及一個封蠟，",
+                "但不能同時有兩種加強/版本/封蠟"
             },
             ml_unlock_all_explanation = {
                 "警告！解鎖完整收藏",
@@ -4046,7 +4047,7 @@ return {
             },
             s_9 = {
                 "如果您有足夠積蓄，",
-                "也可考慮購買{C:attention}禮券{}。",
+                "亦可以考慮購買{C:attention}禮券{}。",
                 "{C:attention}禮券{}可以",
                 "幫您升級比賽！"
             },
@@ -4057,7 +4058,7 @@ return {
             },
             s_11 = {
                 "快啲睇睇兩個",
-                "商店賣嘅{C:booster}擴充包{}，",
+                "商店賣緊嘅{C:booster}擴充包{}，",
                 "每次商店都會販售，",
                 "擴充包入面好正架！"
             },
