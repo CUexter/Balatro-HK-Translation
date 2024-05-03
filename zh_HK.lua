@@ -2382,29 +2382,37 @@ return {
 			tag_negative = {
 				name = "負片標籤",
 				text = {
-					"下個商店內有一張",
-					"{C:dark_edition}負片小丑牌",
+					"下一張原本係商店",
+					"出現嘅基本版小丑",
+					"將會變成{C:dark_edition}負片版",
+					"而且免費",
 				},
 			},
 			tag_foil = {
 				name = "銀箔標籤",
 				text = {
-					"下個商店內有一張",
-					"{C:dark_edition}銀箔小丑牌",
+					"下一張原本係商店",
+					"出現嘅基本版小丑",
+					"將會變成{C:dark_edition}銀箔版",
+					"而且免費",
 				},
 			},
 			tag_holo = {
 				name = "全像攝影標籤",
 				text = {
-					"下個商店內有一張",
-					"{C:dark_edition}全像攝影小丑牌",
+					"下一張原本係商店",
+					"出現嘅基本版小丑",
+					"將會變成{C:dark_edition}全像攝影版",
+					"而且免費",
 				},
 			},
 			tag_polychrome = {
 				name = "彩閃標籤",
 				text = {
-					"下個商店內有一張",
-					"{C:dark_edition}彩閃小丑牌",
+					"下一張原本係商店",
+					"出現嘅基本版小丑",
+					"將會變成{C:dark_edition}彩閃版",
+					"而且免費",
 				},
 			},
 			tag_investment = {
@@ -2913,7 +2921,7 @@ return {
 				},
 			},
 			perishable = {
-				name = "永久",
+				name = "非永久",
 				text = {
 					"",
 					"{C:attention}#1#{}回合後遭減益",
@@ -3505,7 +3513,7 @@ return {
 			purple_seal = "紫色封蠟",
 			locked = "已鎖定",
 			eternal = "永恆",
-			perishable = "永久",
+			perishable = "非永久",
 			rental = "租借",
 			pinned_left = "已釘選",
 		},
@@ -3683,8 +3691,8 @@ return {
 			k_other = "其他",
 			k_money = "資金",
 			k_best_hand = "最好嘅一手",
-			k_seeded_run = "種子比賽",
-			k_enter_seed = "進入種子",
+			k_seeded_run = "指定seed嘅比賽",
+			k_enter_seed = "輸入seed",
 			k_enter_name = "輸入名稱",
 			k_lvl = "等級",
 			k_skipped_cap = "已跳過",
@@ -3706,7 +3714,7 @@ return {
 			k_achievements_disabled = "禁用成就",
 			k_trophies_disabled = "獎盃停用",
 			ph_improve_run = "埋嚟幫襯",
-			ph_no_boss_active = "無使用中嘅好牌",
+			ph_no_boss_active = "冇boss起到作用",
 			ph_sneak_peek = "先睹為快",
 			ph_deck_preview_stones = "石頭",
 			ph_deck_preview_effective = "因小丑、盲注同埋卡牌增強而產生嘅有效總數量",
