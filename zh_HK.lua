@@ -34,8 +34,8 @@ return {
 			j_crazy = {
 				name = "瘋狂小丑",
 				text = {
-					"如果打出嘅牌包含",
-					"{C:attention}#2#{}，",
+					"如果打出嘅牌",
+					"包含{C:attention}#2#{}，",
 					"倍數{C:red}+#1#{}",
 				},
 			},
@@ -91,7 +91,7 @@ return {
 				name = "半個小丑",
 				text = {
 					"如果打出",
-					"不超過{C:attention}#2#{}張牌，",
+					"唔超過{C:attention}#2#{}張牌，",
 					"倍數{C:red}+#1#{}",
 				},
 			},
@@ -133,7 +133,7 @@ return {
 				},
 			},
 			j_stencil = {
-				name = "模具小丑",
+				name = "模具",
 				text = {
 					"每個空嘅{C:attention}小丑牌{}欄位",
 					"獲得{X:red,C:white}X#1#{}倍數。",
@@ -334,7 +334,7 @@ return {
 				},
 			},
 			j_gros_michel = {
-				name = "大米高香蕉",
+				name = "大米七香蕉",
 				text = {
 					"倍數{C:mult}+#1#{}，",
 					"每回合結束時",
@@ -399,8 +399,8 @@ return {
 				text = {
 					"若連續打出",
 					"冇計分{C:attention}公仔牌{}嘅",
-					"計分手牌，呢張小丑可獲得",
-					"每次倍數{C:mult}+#1#",
+					"計分手牌，呢張小丑",
+					"可獲得{C:mult}+#1#倍數",
 					"{C:inactive}(目前為{C:mult}+#2#{C:inactive}倍)",
 				},
 			},
@@ -472,8 +472,8 @@ return {
 			j_blue_joker = {
 				name = "藍色小丑",
 				text = {
-					"每張喺{C:attention}牌組{}剩下嘅牌",
-					"可{C:chips}+#1#{}籌碼",
+					"{C:attention}副牌{}每淨低一張牌",
+					"就{C:chips}+#1#{}籌碼",
 					"{C:inactive}(目前為{C:chips}+#2#{C:inactive}籌碼)",
 				},
 			},
@@ -534,7 +534,7 @@ return {
 				},
 			},
 			j_mr_bones = {
-				name = "Mr.  骨頭",
+				name = "Mr.骨頭",
 				text = {
 					"若得分時，獲得",
 					"所需籌碼嘅",
@@ -832,7 +832,7 @@ return {
 				},
 				unlock = {
 					"喺{E:1,C:attention}一手之內",
-					"且不使用棄牌次數",
+					"且冇使用棄牌次數",
 					"戰勝Boss盲注",
 				},
 			},
@@ -988,8 +988,8 @@ return {
 			j_shortcut = {
 				name = "走吓捷徑",
 				text = {
-					"允許{C:attention}順子{}可跨",
-					"{C:attention}1點達成",
+					"隔住{C:attention}1點",
+					"都出到{C:attention}蛇{}",
 					"{C:inactive}(如：{C:attention}10 8 6 5 3{C:inactive})",
 				},
 			},
@@ -1038,7 +1038,7 @@ return {
 			j_obelisk = {
 				name = "方尖碑",
 				text = {
-					"不打出最常使用嘅{C:attention}牌型，",
+					"唔打出最常使用嘅{C:attention}牌型，",
 					"{C:attention}連續{}打出每次出牌，",
 					"呢張小丑獲得",
 					"{X:mult,C:white}X#1#{}倍數",
@@ -1096,7 +1096,7 @@ return {
 				},
 			},
 			j_reserved_parking = {
-				name = "私人車位",
+				name = "專用車位",
 				text = {
 					"手牌中",
 					"每張持有嘅{C:attention}公仔牌{}",
@@ -1139,7 +1139,7 @@ return {
 				},
 			},
 			j_baseball = {
-				name = "棒球卡",
+				name = "點五步",
 				text = {
 					"每張擁有嘅{C:green}罕見{}小丑牌",
 					"給予{X:mult,C:white}X#1#{}倍數",
@@ -1275,7 +1275,7 @@ return {
 					"{C:inactive}(目前為{C:attention}#2#{C:inactive}/#1#)",
 				},
 				unlock = {
-					"拿到不超過{E:1,C:attention}4張小丑牌{}",
+					"拿到唔超過{E:1,C:attention}4張小丑牌{}",
 					"嘅情況",
 					"贏得比賽",
 				},
@@ -1720,7 +1720,7 @@ return {
 				name = "幻想",
 				text = {
 					"喺商店內嘅{C:attention}啤牌{}",
-					"可能係{C:enhanced}加強牌{}、{C:dark_edition}不同版本{}",
+					"可能係{C:enhanced}加強牌{}、{C:dark_edition}唔同版本{}",
 					"或/及蓋有{C:attention}封蠟{}",
 				},
 				unlock = {
@@ -2314,6 +2314,7 @@ return {
 				text = {
 					"{C:attention}細盲{}",
 					"無獎勵金",
+					"{s:0.8}",
 				},
 			},
 			stake_green = {
@@ -2559,7 +2560,7 @@ return {
 				text = {},
 			},
 			bl_hook = {
-				name = "鉤子",
+				name = "鐵鉤",
 				text = {
 					"每次出牌",
 					"隨機丟棄2張手牌",
@@ -2568,14 +2569,13 @@ return {
 			bl_wall = {
 				name = "高牆",
 				text = {
-					"特大盲",
+					"特大盲注",
 				},
 			},
 			bl_wheel = {
 				name = "巨輪",
 				text = {
-					"/7機率一張牌",
-					"你睇唔到係乜",
+					"1/7機率冚埋一張牌",
 				},
 			},
 			bl_arm = {
@@ -2595,7 +2595,7 @@ return {
 				name = "鞭策",
 				text = {
 					"所有葵扇卡牌",
-					"都唔計分",
+					"都唔計分以及無效",
 				},
 			},
 			bl_water = {
@@ -2608,7 +2608,7 @@ return {
 			bl_eye = {
 				name = "眼睛",
 				text = {
-					"本回合不能打出",
+					"本回合唔可以打出",
 					"重複嘅牌型",
 				},
 			},
@@ -2620,10 +2620,10 @@ return {
 				},
 			},
 			bl_plant = {
-				name = "星球",
+				name = "植物",
 				text = {
 					"所有公仔牌",
-					"都唔計分",
+					"都唔計分以及無效",
 				},
 			},
 			bl_needle = {
@@ -2636,7 +2636,7 @@ return {
 				name = "頭顱",
 				text = {
 					"所有紅心",
-					"都唔計分",
+					"都唔計分以及無效",
 				},
 			},
 			bl_tooth = {
@@ -2649,14 +2649,14 @@ return {
 			bl_final_leaf = {
 				name = "翠綠樹葉",
 				text = {
-					"所有卡牌都唔計分",
+					"所有卡牌都唔計分以及無效",
 					"直到賣出1張小丑牌",
 				},
 			},
 			bl_final_vessel = {
-				name = "紫羅蘭花器",
+				name = "紺紫花蕊",
 				text = {
-					"非常大盲",
+					"非常大盲注",
 				},
 			},
 			bl_ox = {
@@ -2670,28 +2670,28 @@ return {
 				name = "房子",
 				text = {
 					"第一抽嘅手牌",
-					"你睇唔到係乜",
+					"抽完嘅牌都係冚住",
 				},
 			},
 			bl_club = {
 				name = "梅花",
 				text = {
 					"所有梅花卡牌",
-					"都唔計分",
+					"都唔計分以及無效",
 				},
 			},
 			bl_fish = {
 				name = "魚",
 				text = {
-					"喺第一次出牌後",
-					"抽嘅牌你都睇唔到係乜",
+					"每次出牌後",
+					"抽完嘅牌都係冚住",
 				},
 			},
 			bl_window = {
 				name = "窗口",
 				text = {
 					"所有階磚卡牌",
-					"都唔計分",
+					"都唔計分以及無效",
 				},
 			},
 			bl_manacle = {
@@ -2710,8 +2710,8 @@ return {
 			bl_pillar = {
 				name = "支柱",
 				text = {
-					"於本次底注中",
-					"出過嘅牌都唔計分",
+					"本次底注中出過嘅牌",
+					"都唔計分以及無效",
 				},
 			},
 			bl_flint = {
@@ -2725,25 +2725,25 @@ return {
 				name = "標記",
 				text = {
 					"所有公仔牌",
-					"你都睇唔到係乜",
+					"都係冚埋",
 				},
 			},
 			bl_final_acorn = {
 				name = "琥珀橡果",
 				text = {
-					"所有小丑牌都睇唔到係乜",
+					"所有小丑牌都係冚埋",
 					"同埋牌位亂調",
 				},
 			},
 			bl_final_heart = {
-				name = "終極紅心",
+				name = "緋紅心臟",
 				text = {
 					"每次出牌",
 					"任一小丑牌功能失效",
 				},
 			},
 			bl_final_bell = {
-				name = "蔚藍鐘",
+				name = "蔚藍喪鐘",
 				text = {
 					"有一張牌會一直",
 					"被強制選定",
@@ -2778,7 +2778,7 @@ return {
 					"每一回合結束時：",
 					"每剩一次{C:blue}出牌次數，獲得{C:money}$#1#{s:0.85}",
 					"每剩一次{C:red}棄牌次數，獲得{C:money}$#2#{s:0.85}",
-					"不獲得任何{C:attention}利息",
+					"唔獲得任何{C:attention}利息",
 				},
 			},
 			b_black = {
@@ -2916,12 +2916,12 @@ return {
 			eternal = {
 				name = "永恆",
 				text = {
-					"不能賣出",
+					"唔可以賣出",
 					"或催毀",
 				},
 			},
 			perishable = {
-				name = "非永久",
+				name = "會消失",
 				text = {
 					"",
 					"{C:attention}#1#{}回合後遭減益",
@@ -3035,7 +3035,7 @@ return {
 				name = "遭減益",
 				text = {
 					"得分無籌碼，",
-					"不能觸發任何",
+					"唔可以觸發任何",
 					"功能或效果",
 				},
 			},
@@ -3049,7 +3049,7 @@ return {
 			challenge_locked = {
 				name = "已鎖定",
 				text = {
-					"用至少#1#個不同牌組",
+					"用至少#1#個唔同嘅牌組",
 					"贏得一場比賽以解鎖",
 					"挑戰模式",
 					"{C:attention,s:2}#2#/#1#",
@@ -3105,7 +3105,7 @@ return {
 			undiscovered_joker = {
 				name = "未發現",
 				text = {
-					"喺冇指定seed嘅情況下",
+					"喺冇指定SEED嘅情況下",
 					"購買或使用此卡片",
 					"以瞭解功用",
 				},
@@ -3113,7 +3113,7 @@ return {
 			undiscovered_tarot = {
 				name = "未發現",
 				text = {
-					"喺冇指定seed嘅情況下",
+					"喺冇指定SEED嘅情況下",
 					"購買或使用此卡片",
 					"以瞭解功用",
 				},
@@ -3121,7 +3121,7 @@ return {
 			undiscovered_planet = {
 				name = "未發現",
 				text = {
-					"喺冇指定seed嘅情況下",
+					"喺冇指定SEED嘅情況下",
 					"購買或使用此卡片",
 					"以瞭解功用",
 				},
@@ -3129,7 +3129,7 @@ return {
 			undiscovered_spectral = {
 				name = "未發現",
 				text = {
-					"喺冇指定seed嘅情況下",
+					"喺冇指定SEED嘅情況下",
 					"購買或使用此卡片",
 					"以瞭解功用",
 				},
@@ -3137,7 +3137,7 @@ return {
 			undiscovered_voucher = {
 				name = "未發現",
 				text = {
-					"喺冇指定seed嘅情況下",
+					"喺冇指定SEED嘅情況下",
 					"兌換此禮券",
 					"以瞭解功用",
 				},
@@ -3145,7 +3145,7 @@ return {
 			undiscovered_booster = {
 				name = "未發現",
 				text = {
-					"喺冇指定seed嘅情況下",
+					"喺冇指定SEED嘅情況下",
 					"打開此擴充包",
 					"以瞭解功用",
 				},
@@ -3153,7 +3153,7 @@ return {
 			undiscovered_edition = {
 				name = "未發現",
 				text = {
-					"喺冇指定seed嘅情況下",
+					"喺冇指定SEED嘅情況下",
 					"搵到此版本",
 					"以瞭解功用",
 				},
@@ -3161,7 +3161,7 @@ return {
 			undiscovered_tag = {
 				name = "未發現",
 				text = {
-					"喺冇指定seed嘅情況下",
+					"喺冇指定SEED嘅情況下",
 					"使用呢個標籤",
 					"以瞭解功用",
 				},
@@ -3385,7 +3385,7 @@ return {
 			card_player = "打出至少2500張牌",
 			card_discarder = "丟棄至少2500張牌",
 			nest_egg = "喺單一回合中擁有$400以上",
-			flushed = "用5張萬能牌打出一次同花",
+			flushed = "用5張百搭牌打出一次同花",
 			speedrunner = "喺12回合以內贏得比賽",
 			roi = "喺底注4嘅遊戲中購買5禮券",
 			shattered = "喺單一手牌中破壞2玻璃牌",
@@ -3396,7 +3396,7 @@ return {
 			_100000k = "喺一次出牌中獲得100,000,000籌碼",
 			tiny_hands = "將你副牌組縮減至20張或以下",
 			big_hands = "牌組中擁有80張以上卡牌",
-			you_get_what_you_get = "喺不使用商店重擲嘅情況下贏得比賽",
+			you_get_what_you_get = "喺冇用商店重擲嘅情況下贏得比賽",
 			rule_bender = "完成任一挑戰賽",
 			rule_breaker = "完成所有挑戰賽",
 			legendary = "搵到傳奇小丑",
@@ -3482,7 +3482,7 @@ return {
 				"其他2張未計分嘅卡牌一起出",
 			},
 			["Two Pair"] = {
-				"兩對不同點數嘅牌。可以同",
+				"兩對唔同點數嘅牌。可以同",
 				"其他1張未計分嘅牌一起出",
 			},
 			["Pair"] = {
@@ -3490,7 +3490,7 @@ return {
 				"最多其他3張未計分嘅卡牌一起出",
 			},
 			["High Card"] = {
-				"如果玩嘅手牌不屬於上述任一種，",
+				"如果玩嘅手牌唔屬於上述任一種，",
 				"只有最高點數嘅牌可以計入分數",
 			},
 		},
@@ -3513,7 +3513,7 @@ return {
 			purple_seal = "紫色封蠟",
 			locked = "已鎖定",
 			eternal = "永恆",
-			perishable = "非永久",
+			perishable = "會消失",
 			rental = "租借",
 			pinned_left = "已釘選",
 		},
@@ -3529,7 +3529,7 @@ return {
 			b_next_round_2 = "回合",
 			b_play_hand = "出牌",
 			b_discard = "棄牌",
-			b_sort_hand = "理牌",
+			b_sort_hand = "重新整理",
 			b_run_info_1 = "比賽",
 			b_run_info_2 = "資訊",
 			b_options = "選項",
@@ -3540,8 +3540,8 @@ return {
 			b_start_new_run = "開始新嘅一局",
 			b_main_menu = "主選單",
 			b_collection = "收藏",
-			b_seed = "seed",
-			b_copy_seed = "複製seed",
+			b_seed = "SEED",
+			b_copy_seed = "複製SEED",
 			b_copy = "複製",
 			b_credits = "製作人員",
 			b_stats = "統計數據",
@@ -3564,7 +3564,7 @@ return {
 			b_set_music_vol = "音樂音量",
 			b_set_game_vol = "遊戲音量",
 			b_set_shadows = "陰影",
-			b_set_pixel_smoothing = "像素圖像平滑",
+			b_set_pixel_smoothing = "像素圖像平滑（如果關閉，將會用返英文貼圖）",
 			b_set_CRT = "CRT",
 			b_set_CRT_bloom = "模擬CRT螢光效果",
 			b_stat_jokers = "小丑",
@@ -3617,11 +3617,11 @@ return {
 			b_unlock_all = "解鎖全部",
 			k_unknown = "?????",
 			k_compatible = "相容",
-			k_incompatible = "不相容",
+			k_incompatible = "唔相容",
 			k_active = "使用中",
 			k_round = "回合",
 			k_ante = "底注",
-			k_seed = "種子",
+			k_seed = "SEED",
 			k_reroll = "重擲",
 			k_mult = "倍數",
 			k_rank = "點數",
@@ -3684,21 +3684,21 @@ return {
 			k_deck_stake_wins = "牌組賭注完成度",
 			k_stake_level = "賭注等級",
 			k_none = "無",
-			k_game_modifiers = "遊戲修改者",
+			k_game_modifiers = "遊戲修改效果",
 			k_custom_rules = "自訂規則",
 			k_banned_cards = "禁卡",
 			k_banned_tags = "禁標籤",
 			k_other = "其他",
 			k_money = "資金",
 			k_best_hand = "最好嘅一手",
-			k_seeded_run = "指定seed嘅比賽",
-			k_enter_seed = "輸入seed",
+			k_seeded_run = "指定SEED嘅比賽",
+			k_enter_seed = "輸入SEED",
 			k_enter_name = "輸入名稱",
 			k_lvl = "等級",
 			k_skipped_cap = "已跳過",
 			k_no_reward = "無獎勵",
 			k_reward = "獎勵",
-			k_nope_ex = "不！",
+			k_nope_ex = "唔中！",
 			k_not_allowed_ex = "禁止!",
 			k_or = "或",
 			k_poker_hand = "牌型",
@@ -3734,7 +3734,7 @@ return {
 			ph_you_win = "你獲勝了！",
 			ph_you_win_demo = "你喺試玩版中獲勝了！",
 			ph_vouchers_redeemed = "本賽局兌換嘅禮券",
-			ph_no_vouchers = "本賽局沒有兌換禮券",
+			ph_no_vouchers = "本賽局冇兌換禮券",
 			ph_defeat_this_blind_1 = "戰勝盲注",
 			ph_defeat_this_blind_2 = "發現它",
 			ph_click_confirm = "再按一下即可確認",
@@ -3750,13 +3750,13 @@ return {
 			ph_score_furthest_ante = "底注",
 			ph_score_furthest_round = "回合",
 			ph_score_hand = "最好嘅一手",
-			ph_score_poker_hand = "玩得最多嘅一局",
+			ph_score_poker_hand = "出得最多嘅牌型",
 			ph_score_new_collection = "新發現",
 			ph_score_cards_played = "打出嘅牌",
 			ph_score_cards_discarded = "丟棄嘅牌",
 			ph_score_times_rerolled = "重擲次數",
 			ph_score_cards_purchased = "已選購嘅牌",
-			ph_unscored_hand = "出牌將不會得分",
+			ph_unscored_hand = "出牌將唔會得分",
 			ph_alert_debuff_confirm = "再按一次「出牌」確認",
 			ml_demo_thanks_message = {
 				"不妨到",
@@ -3765,7 +3765,7 @@ return {
 			},
 			ml_eternal = {
 				"永恆",
-				"不能賣出",
+				"唔可以賣出",
 				"或催毀",
 			},
 			ml_gold_seal_desc = {
@@ -3775,7 +3775,7 @@ return {
 			},
 			ml_crash_report_info = {
 				"當機報告會送給開發商",
-				"以協助減少未來嘅問題。系統並不會",
+				"以協助減少未來嘅問題。系統並唔會",
 				"送出可識別身分嘅資訊或個人資料。",
 			},
 			ml_play_discard_pos_opt = {
@@ -3809,7 +3809,7 @@ return {
 			},
 			ml_paste_seed = {
 				"貼上",
-				"seed",
+				"SEED",
 			},
 			ml_disabled_seed = {
 				"全部解鎖及",
@@ -3818,7 +3818,7 @@ return {
 			ml_edition_seal_enhancement_explanation = {
 				"每張卡牌分別可以擁有",
 				"一項加強、一個版本以及一個封蠟，",
-				"但不能同時有兩種加強/版本/封蠟",
+				"但唔可以同時有兩種加強/版本/封蠟",
 			},
 			ml_unlock_all_explanation = {
 				"警告！解鎖完整收藏",
@@ -3855,6 +3855,16 @@ return {
 			k_eaten_ex = "吞噬！",
 			k_drank_ex = "大喝一口！",
 			k_eroded_ex = "侵蝕！",
+			sm_mod_tracking = "停用Mods追蹤",
+			dv_settings_preview_score = "開啟分數預覽功能",
+			dv_settings_preview_dollars = "開啟金錢預覽功能",
+			dv_settings_show_min_max = "顯示上下限，唔直接顯示結果",
+			dv_settings_hide_face_down = "若果任一牌冚埋咗，就唔顯示預覽",
+			dv_history = "歷史",
+			dv_hist_cards_played = "打出嘅手牌",
+			dv_hist_active_joker = "當時有效嘅小丑牌",
+			dv_hist_play_a_hand = "出吓牌啦！",
+			dv_hist_round_skip_for = "跳過回合獲得標籤：",
 		},
 		v_dictionary = {
 			a_xmult = "X#1#倍數",
@@ -3871,8 +3881,8 @@ return {
 			ante_x_voucher = "底注#1#張禮券",
 			loyalty_active = "開啟！",
 			loyalty_inactive = "剩下#1#",
-			deck_preview_wheel_singular = "因#1#牌面朝下，數字可能較小",
-			deck_preview_wheel_plural = "因#1#牌面朝下，數字可能較小",
+			deck_preview_wheel_singular = "因#1#張牌冚埋咗，數字可能較小",
+			deck_preview_wheel_plural = "因#1#張牌冚埋咗，數字可能較小",
 			challenges_completed = "已完成#1#/#2#個挑戰",
 			unlocked = "已解鎖#1#/#2#",
 			completed = "已完成#1#/#2#",
@@ -3941,16 +3951,16 @@ return {
 				"{E:1,s:1.2,C:red}每日挑戰！",
 			},
 			ch_c_set_seed = {
-				"嘗試設定種子1次：{C:inactive}{隱藏}",
+				"嘗試設定SEED1次：{C:inactive}{隱藏}",
 			},
 			ch_c_chips_dollar_cap = {
-				"{C:blue}籌碼{}不能超過目前嘅{C:money}$",
+				"{C:blue}籌碼{}唔可以超過目前嘅{C:money}$",
 			},
 			ch_c_none = {
 				"{C:inactive}無",
 			},
 			ch_c_no_shop_jokers = {
-				"{C:attention}商店{}中不再出現小丑牌",
+				"{C:attention}商店{}中唔再出現小丑牌",
 			},
 			ch_c_inflation = {
 				"每次選購永久提高價格{C:money}$1{}",
@@ -3962,7 +3972,7 @@ return {
 				"所有商店內小丑都係{C:eternal}永恆嘅{}",
 			},
 			ch_c_flipped_cards = {
-				"每{C:green}#1#{}張牌中有1張會係面朝下抽出",
+				"每{C:green}#1#{}張牌中有1張抽完會係冚住",
 			},
 			ch_c_debuff_played_cards = {
 				"所有{C:attention}打出過嘅{}牌喺計分後會遭到{C:attention}減益{}",
@@ -4093,7 +4103,7 @@ return {
 				"呢係{C:attention}#1#張其中一張",
 				"可以加到比賽嘅",
 				"{C:attention}小丑牌{}。每張{C:attention}小丑牌",
-				"都有不一樣嘅功能",
+				"都有唔同嘅功能",
 			},
 			s_4 = {
 				"呢張可以增加{C:red}+4倍數{}到",
@@ -4177,13 +4187,12 @@ return {
 				"釣魚算",
 			},
 			lq_2 = {
-				"我哋好似放棄得",
-				"有啲輕易欸！",
+				"咁易就摺埋架",
 			},
 			lq_3 = {
 				"係時候",
 				"重新洗牌",
-				"然後重新開局啦！",
+				"重新開局啦！",
 			},
 			lq_4 = {
 				"都話咗你架啦: ",
@@ -4203,9 +4212,9 @@ return {
 				"我哋出嚟獻世！",
 			},
 			lq_8 = {
-				"呢種情況，",
-				"只要有手嘅人都想",
-				"將眼睛遮起來吧！",
+				"見到呢啲情況，",
+				"如果我有手，",
+				"就會遮住對眼啦",
 			},
 			lq_9 = {
 				"我就話係傻嘅啫",
