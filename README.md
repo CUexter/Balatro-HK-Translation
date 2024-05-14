@@ -6,6 +6,7 @@
 
 - 地道香港口語
 - 修改部份貼圖，例如擴充包，部分小丑牌等（需開啟像素圖像平滑）
+  ![擴充包貼圖](./image/packs.png)
 
 ## 安裝過程
 
@@ -28,3 +29,4 @@
 2. [俐方體](https://github.com/ACh-K/Cubic-11)
 3. [851 手書き雑フォント](https://pm85122.onamae.jp/851fontpage.html)
 4. [隨峰體](https://cjkfonts.io/blog/ThePeakFont)
+5. [思源黑體](https://github.com/adobe-fonts/source-han-sans)
