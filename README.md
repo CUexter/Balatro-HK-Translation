@@ -9,8 +9,8 @@
 
 ## 安裝過程
 
-1. 安裝steamodded（Balatro 嘅modloader）
-2. 下載最新版本，並解壓至Mods 資料夾入面
+1. 安裝[steamodded](https://github.com/Steamopollys/Steamodded)（Balatro 嘅modloader）
+2. 下載[最新版本](https://github.com/CUexter/Balatro-HK-Translation/releases/)，並解壓至Mods 資料夾入面
 
 ## 已知嘅bugs
 
@@ -24,7 +24,7 @@
 
 ### 字體
 
-1. 精品點陣體
-2. 俐方體
-3. 851 手書き雑フォント
-4. 隨峰體
+1. [精品點陣體](https://github.com/scott0107000/BoutiqueBitmap9x9)
+2. [俐方體](https://github.com/ACh-K/Cubic-11)
+3. [851 手書き雑フォント](https://pm85122.onamae.jp/851fontpage.html)
+4. [隨峰體](https://cjkfonts.io/blog/ThePeakFont)
