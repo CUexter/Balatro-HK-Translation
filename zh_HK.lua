@@ -457,7 +457,7 @@ return {
 				name = "DNA",
 				text = {
 					"如果一回合嘅{C:attention}第一次出牌{}",
-					"只有出{C:attention}1{}張牌",
+					"只出{C:attention}1{}張牌",
 					"將永久複製{C:attention}果張牌{}到牌組",
 					"並放到{C:attention}手牌{}",
 				},
@@ -969,7 +969,7 @@ return {
 				},
 			},
 			j_riff_raff = {
-				name = "即興演出",
+				name = "茄喱啡",
 				text = {
 					"每當選擇{C:attention}盲注{}時",
 					"其會產生{C:attention}#1#張{C:blue}一般{C:attention}小丑牌",
@@ -2116,7 +2116,7 @@ return {
 				},
 			},
 			c_ouija = {
-				name = "占卜板",
+				name = "通靈板",
 				text = {
 					"轉換手牌中",
 					"所有卡牌成一種",
@@ -2575,7 +2575,7 @@ return {
 			bl_wheel = {
 				name = "巨輪",
 				text = {
-					"1/7機率冚埋一張牌",
+					"/7機率冚埋一張牌",
 				},
 			},
 			bl_arm = {
@@ -3524,7 +3524,7 @@ return {
 			b_buy = "購買",
 			b_redeem = "兌換",
 			b_open = "打開",
-			b_and_use = "同埋使用",
+			b_and_use = "同使用",
 			b_next_round_1 = "下一個",
 			b_next_round_2 = "回合",
 			b_play_hand = "出牌",
@@ -3839,21 +3839,21 @@ return {
 			k_plus_planet = "+1行星牌",
 			k_plus_spectral = "+1幻靈牌",
 			k_plus_joker = "+1小丑",
-			k_active_ex = "使用中！",
+			k_active_ex = "用緊",
 			k_level_up_ex = "升級！",
 			k_upgrade_ex = "升級！",
-			k_again_ex = "再一次！",
-			k_val_up = "提高價值！",
+			k_again_ex = "再嚟",
+			k_val_up = "升值！",
 			k_reset = "重設",
-			k_extinct_ex = "消滅了！",
+			k_extinct_ex = "絕咗種",
 			k_disabled_ex = "已失效！",
 			k_safe_ex = "安全！",
 			k_saved_ex = "已儲存！",
 			k_swapped_ex = "已切換！",
 			k_copied_ex = "已複製！",
 			k_melted_ex = "已融化！",
-			k_eaten_ex = "吞噬！",
-			k_drank_ex = "大喝一口！",
+			k_eaten_ex = "食哂嚕",
+			k_drank_ex = "飲晒嚕",
 			k_eroded_ex = "侵蝕！",
 			sm_mod_tracking = "停用Mods追蹤",
 			dv_settings_preview_score = "開啟分數預覽功能",
@@ -4157,7 +4157,7 @@ return {
 			},
 			wq_2 = {
 				"你超勁",
-				"好掂呢！",
+				"好掂啊！",
 			},
 			wq_3 = {
 				"睇黎",
@@ -4218,8 +4218,7 @@ return {
 			},
 			lq_9 = {
 				"我就話係傻嘅啫",
-				"但你嘅",
-				"藉口係咩？",
+				"但你嘅藉口係咩？",
 			},
 			lq_10 = {
 				"真係瘀到冇朋友！",
