@@ -1170,7 +1170,7 @@ return {
 				},
 			},
 			j_flash = {
-				name = "閃卡",
+				name = "學習卡",
 				text = {
 					"喺商店內每{C:attention}重擲{}一次",
 					"呢張小丑獲得{C:mult}+#1#{}倍數",
