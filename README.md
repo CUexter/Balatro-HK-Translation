@@ -23,6 +23,8 @@
 
 荼毒室 DC 機台室友，提供翻譯idea
 
+- [Balatro-Sprites-i18n](https://github.com/Signez/balatro-sprites-i18n)
+
 ### 字體
 
 1. [精品點陣體](https://github.com/scott0107000/BoutiqueBitmap9x9)
