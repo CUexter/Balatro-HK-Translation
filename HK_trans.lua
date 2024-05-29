@@ -43,7 +43,8 @@ function SMODS.INIT.HK_Translation()
 
 	local function apply_patch()
 		if G.LANG.key == "zh_HK" then
-			G.localization = assert(loadstring(love.filesystem.read(lang_path)))()
+			sendDebugMessage(NFS.read(lang_path))
+			G.localization = assert(loadstring(NFS.read(lang_path)))()
 			apply_sprites()
 			G.UIDEF.settings_tab = settings_trans
 		else
