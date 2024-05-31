@@ -235,7 +235,7 @@ return {
 				text = {
 					"每出牌{C:attention}#2#{}次",
 					"獲得一次倍數{X:red,C:white}X#1#{}",
-					"{C:inactive}#3#次",
+					"{C:inactive}#3#",
 				},
 			},
 			j_8_ball = {
@@ -439,7 +439,7 @@ return {
 			j_runner = {
 				name = "跑步L",
 				text = {
-					"每次打出{C:attention}蛇{}",
+					"如果打出嘅牌包含{C:attention}蛇{}",
 					"就會獲得",
 					"{C:chips}+#2#{}籌碼",
 					"{C:inactive}(目前{C:chips}+#1#{C:inactive}籌碼)",
@@ -515,10 +515,10 @@ return {
 			j_todo_list = {
 				name = "待辦清單",
 				text = {
-					"若{C:attention}牌型{}為{C:attention}#2#{}",
-					"則喺回合結束時，",
-					"贏得{C:money}$#1#{}，",
-					"隨後牌型變更",
+					"若打出{C:attention}牌型{}為{C:attention}#2#{}",
+					"立即獲得{C:money}$#1#{}，",
+					"喺回合結束時，",
+					"牌型變更",
 				},
 			},
 			j_ticket = {
@@ -581,8 +581,8 @@ return {
 			j_swashbuckler = {
 				name = "盜賊",
 				text = {
-					"所有其他{C:attention}小丑牌{}嘅總售價",
-					"增加至呢張嘅小丑倍數",
+					"將所有其他{C:attention}小丑牌{}嘅總售價",
+					"增加至倍數",
 					"{C:inactive}(目前為{C:mult}+#1#{C:inactive}倍)",
 				},
 				unlock = {
@@ -726,8 +726,8 @@ return {
 				name = "馬戲王",
 				text = {
 					"{C:attention}小丑牌{}、{C:tarot}塔羅牌{}、{C:planet}行星牌{}同埋",
-					"{C:spectral}幻靈牌{}會喺商店出現",
-					"多次",
+					"{C:spectral}幻靈牌{}會喺商店",
+					"重複出現",
 				},
 				unlock = {
 					"達到底注",
@@ -1308,7 +1308,7 @@ return {
 				name = "射向月亮",
 				text = {
 					"手上每張持有嘅",
-					"{C:attention}葵扇Q",
+					"{C:attention}囡(Q)",
 					"{C:mult}+#1#{}倍數",
 				},
 				unlock = {
@@ -1355,7 +1355,7 @@ return {
 				},
 			},
 			j_burnt = {
-				name = "攰到爆炸",
+				name = "燒爛小丑",
 				text = {
 					"升級",
 					"每回合中",
@@ -1539,8 +1539,8 @@ return {
 			v_hieroglyph = {
 				name = "象形文字",
 				text = {
-					"每回合",
 					"{C:attention}-#1#{}底注，",
+					"每回合",
 					"{C:blue}-#1#{}出牌次數",
 				},
 			},
@@ -1733,8 +1733,8 @@ return {
 			v_petroglyph = {
 				name = "岩石雕刻",
 				text = {
-					"每回合",
 					"{C:attention}-#1#{}底注，",
+					"每回合",
 					"{C:red}-#1#{}棄牌次數",
 				},
 				unlock = {
@@ -2129,7 +2129,7 @@ return {
 				text = {
 					"新增{C:dark_edition}負片{}效果到",
 					"一張隨機嘅{C:attention}小丑牌，",
-					"{C:red}-1{}嘅手牌數量",
+					"{C:red}-#1#{}嘅手牌數量",
 				},
 			},
 			c_immolate = {
@@ -2351,7 +2351,7 @@ return {
 			stake_orange = {
 				name = "橙色賭注",
 				text = {
-					"商店可出現{C:attention}永久{}小丑",
+					"商店可出現{C:attention}會消失{}小丑",
 					"{C:inactive,s:0.8}(5回合後遭減益)",
 					"{s:0.8}加上所有先前嘅賭注",
 				},
@@ -3882,7 +3882,7 @@ return {
 			a_remaining = "剩下#1#",
 			ante_x_voucher = "底注#1#張禮券",
 			loyalty_active = "開啟！",
-			loyalty_inactive = "剩下#1#",
+			loyalty_inactive = "剩下#1#次",
 			deck_preview_wheel_singular = "因#1#張牌冚埋咗，數字可能較小",
 			deck_preview_wheel_plural = "因#1#張牌冚埋咗，數字可能較小",
 			challenges_completed = "已完成#1#/#2#個挑戰",
