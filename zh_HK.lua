@@ -98,7 +98,7 @@ return {
 			j_fortune_teller = {
 				name = "占卜師",
 				text = {
-					"本賽局每使用一張{C:purple}塔羅牌{}時",
+					"本賭局每使用一張{C:purple}塔羅牌{}時",
 					"倍數{C:red}+#1#{}",
 					"{C:inactive}(目前為{C:red}+#2#{C:inactive})",
 				},
@@ -209,8 +209,8 @@ return {
 			j_banner = {
 				name = "旗幟",
 				text = {
-					"每一次剩餘嘅",
-					"{C:attention}棄牌{}數目可獲得",
+					"每有一次剩餘嘅",
+					"{C:attention}棄牌{}次數可獲得",
 					"{C:chips}+#1#{}籌碼",
 				},
 			},
@@ -263,7 +263,7 @@ return {
 				},
 			},
 			j_misprint = {
-				name = "印錯小丑",
+				name = "錯版小丑",
 				text = {
 					"",
 				},
@@ -343,7 +343,7 @@ return {
 				},
 			},
 			j_even_steven = {
-				name = "互不拖欠",
+				name = "雙分史提芬",
 				text = {
 					"每打出一張計分嘅",
 					"{C:attention}雙數{}點嘅牌，",
@@ -352,7 +352,7 @@ return {
 				},
 			},
 			j_odd_todd = {
-				name = "騎呢托德",
+				name = "單獨托特",
 				text = {
 					"每打出一張計分嘅",
 					"{C:attention}單數{}點嘅牌，",
@@ -579,7 +579,7 @@ return {
 				},
 			},
 			j_swashbuckler = {
-				name = "盜賊",
+				name = "俠盜",
 				text = {
 					"將所有其他{C:attention}小丑牌{}嘅總售價",
 					"增加至倍數",
@@ -632,7 +632,7 @@ return {
 				},
 			},
 			j_throwback = {
-				name = "復古小丑",
+				name = "懷舊小丑",
 				text = {
 					"此比賽中每跳過一次",
 					"{C:attention}盲注{}，{X:mult,C:white}X#1#{}倍數",
@@ -953,8 +953,8 @@ return {
 			j_square = {
 				name = "正方小丑",
 				text = {
-					"若打出牌型",
-					"啱啱好為{C:attention}4{}張牌，",
+					"若打出",
+					"啱啱好{C:attention}4{}張牌，",
 					"呢張小丑獲得{C:chips}+#2#{}張籌碼",
 					"{C:inactive}(目前為{C:chips}#1#{C:inactive}張籌碼)",
 				},
@@ -1005,7 +1005,7 @@ return {
 			j_vagabond = {
 				name = "濁水漂流",
 				text = {
-					"若喺出牌時當下",
+					"若喺出牌當下",
 					"擁有{C:money}$#1#{}或更少嘅金錢",
 					"產生一張{C:purple}塔羅牌{}",
 				},
@@ -1032,7 +1032,7 @@ return {
 				text = {
 					"於回合結束時獲得{C:money}$#1#{}",
 					"{C:attention}Boss盲註{}",
-					"被擊敗時獎金提升{C:money}$#2#{}",
+					"被擊敗時獲得嘅獎金提升{C:money}$#2#{}",
 				},
 			},
 			j_obelisk = {
@@ -1157,12 +1157,12 @@ return {
 				name = "健怡可樂",
 				text = {
 					"賣出呢張卡牌以",
-					"建立一個免費",
+					"獲得一個免費",
 					"{C:attention}#1#",
 				},
 			},
 			j_trading = {
-				name = "交換卡",
+				name = "集換卡",
 				text = {
 					"每回合嘅{C:attention}第一次棄牌{}",
 					"如果只棄{C:attention}1{}張牌",
@@ -1294,7 +1294,7 @@ return {
 			j_satellite = {
 				name = "人造衛星",
 				text = {
-					"本賽局每使用一張",
+					"本賭局每使用一張",
 					"{C:planet}行星牌{}，每回合結束時",
 					"可得到{C:money}$#1#{}",
 					"{C:inactive}(目前為{C:money}$#2#{C:inactive})",
@@ -1477,9 +1477,9 @@ return {
 				},
 			},
 			v_reroll_surplus = {
-				name = "歡迎再擲",
+				name = "歡迎再抽",
 				text = {
-					"重擲費用",
+					"重抽費用",
 					"減少{C:money}$#1#{}",
 				},
 			},
@@ -1625,13 +1625,13 @@ return {
 				},
 			},
 			v_reroll_glut = {
-				name = "擲多幾次",
+				name = "抽多幾次",
 				text = {
-					"重擲費用",
+					"重抽費用",
 					"減少{C:money}$#1#{}",
 				},
 				unlock = {
-					"商店重擲",
+					"商店重抽",
 					"總計{C:attention}#1#{}次",
 					"{C:inactive}(#2#)",
 				},
@@ -1720,7 +1720,7 @@ return {
 				name = "幻想",
 				text = {
 					"喺商店內嘅{C:attention}啤牌{}",
-					"可能係{C:enhanced}加強牌{}、{C:dark_edition}唔同版本{}",
+					"可能係{C:enhanced}強化牌{}、{C:dark_edition}唔同版本{}",
 					"或/及蓋有{C:attention}封蠟{}",
 				},
 				unlock = {
@@ -1769,7 +1769,7 @@ return {
 			c_fool = {
 				name = "愚者",
 				text = {
-					"產生本賽局中",
+					"產生本賭局中",
 					"上一張使用嘅",
 					"{C:tarot}塔羅牌{}或{C:planet}行星牌{}",
 					"{s:0.8,C:tarot}愚者牌{s:0.8}除外",
@@ -2219,7 +2219,7 @@ return {
 				},
 			},
 			e_holo = {
-				name = "全像攝影",
+				name = "鐳射",
 				text = {
 					"{C:mult}+#1#{}倍數",
 				},
@@ -2322,14 +2322,14 @@ return {
 				text = {
 					"每個{C:attention}底注所需分數",
 					"以更快嘅尺度提高",
-					"{s:0.8}加上所有先前嘅賭注",
+					"{s:0.8}加上所有先前賭注嘅效果",
 				},
 			},
 			stake_blue = {
 				name = "藍色賭注",
 				text = {
 					"{C:red}-1{}棄牌次數",
-					"{s:0.8}加上所有先前嘅賭注",
+					"{s:0.8}加上所有先前賭注嘅效果",
 				},
 			},
 			stake_black = {
@@ -2337,7 +2337,7 @@ return {
 				text = {
 					"商店有{C:attention}永恆{}小丑牌",
 					"{C:inactive,s:0.8}(無法賣出或摧毀)",
-					"{s:0.8}加上所有先前嘅賭注",
+					"{s:0.8}加上所有先前賭注嘅效果",
 				},
 			},
 			stake_purple = {
@@ -2345,7 +2345,7 @@ return {
 				text = {
 					"每個{C:attention}底注所需分數",
 					"以更快嘅尺度提高",
-					"{s:0.8}加上所有先前嘅賭注",
+					"{s:0.8}加上所有先前賭注嘅效果",
 				},
 			},
 			stake_orange = {
@@ -2353,7 +2353,7 @@ return {
 				text = {
 					"商店可出現{C:attention}會消失{}小丑",
 					"{C:inactive,s:0.8}(5回合後遭減益)",
-					"{s:0.8}加上所有先前嘅賭注",
+					"{s:0.8}加上所有先前賭注嘅效果",
 				},
 			},
 			stake_gold = {
@@ -2361,7 +2361,7 @@ return {
 				text = {
 					"商店可出現{C:attention}租借{}小丑",
 					"{C:inactive,s:0.8}(每回合花費{C:money,s:0.8}$3{C:inactive,s:0.8})",
-					"{s:0.8}加上所有先前嘅賭注",
+					"{s:0.8}加上所有先前賭注嘅效果",
 				},
 			},
 		},
@@ -2399,11 +2399,11 @@ return {
 				},
 			},
 			tag_holo = {
-				name = "全像攝影標籤",
+				name = "鐳射標籤",
 				text = {
 					"下一張原本係商店",
 					"出現嘅基本版小丑",
-					"將會變成{C:dark_edition}全像攝影版",
+					"將會變成{C:dark_edition}鐳射版",
 					"而且免費",
 				},
 			},
@@ -2469,7 +2469,7 @@ return {
 			tag_handy = {
 				name = "方便標籤",
 				text = {
-					"本賽局每打出一次{C:blue}手牌{}",
+					"本賭局每打出一次{C:blue}手牌{}",
 					"獲得{C:money}$#1#{}",
 					"{C:inactive}(將得到{C:money}$#2#{C:inactive})",
 				},
@@ -2477,7 +2477,7 @@ return {
 			tag_garbage = {
 				name = "垃圾標籤",
 				text = {
-					"本賽局每一未使用嘅{C:red}棄牌次數{}",
+					"本賭局每一未使用嘅{C:red}棄牌次數{}",
 					"得到{C:money}$#1#{}",
 					"{C:inactive}(將得到{C:money}$#2#{C:inactive})",
 				},
@@ -2523,7 +2523,7 @@ return {
 			tag_skip = {
 				name = "速度標籤",
 				text = {
-					"本賽局中每跳過",
+					"本賭局中每跳過",
 					"一次盲注，獲得{C:money}$#1#{}",
 					"{C:inactive}(會給{C:money}$#2#{C:inactive})",
 				},
@@ -3025,16 +3025,16 @@ return {
 				text = {},
 			},
 			debuffed_default = {
-				name = "遭減益",
+				name = "被弱化",
 				text = {
 					"所有能力",
 					"失效",
 				},
 			},
 			debuffed_playing_card = {
-				name = "遭減益",
+				name = "被弱化",
 				text = {
-					"得分無籌碼，",
+					"無籌碼得分，",
 					"唔可以觸發任何",
 					"功能或效果",
 				},
@@ -3504,7 +3504,7 @@ return {
 			pluto_planet = "矮行星",
 			voucher = "禮券",
 			foil = "銀箔",
-			holographic = "全像攝影",
+			holographic = "鐳射",
 			polychrome = "彩閃",
 			negative = "負片",
 			gold_seal = "金色封蠟",
@@ -3530,7 +3530,7 @@ return {
 			b_play_hand = "出牌",
 			b_discard = "棄牌",
 			b_sort_hand = "重新整理",
-			b_run_info_1 = "比賽",
+			b_run_info_1 = "賭局",
 			b_run_info_2 = "資訊",
 			b_options = "選項",
 			b_reroll_boss = "重擲Boss盲注",
@@ -3587,7 +3587,7 @@ return {
 			b_tarot_cards = "塔羅牌",
 			b_planet_cards = "行星牌",
 			b_spectral_cards = "幻靈牌",
-			b_enhanced_cards = "加強牌",
+			b_enhanced_cards = "強化牌",
 			b_editions = "版本",
 			b_booster_packs = "擴充包",
 			b_tags = "標籤",
@@ -3622,7 +3622,7 @@ return {
 			k_round = "回合",
 			k_ante = "底注",
 			k_seed = "SEED",
-			k_reroll = "重擲",
+			k_reroll = "重抽",
 			k_mult = "倍數",
 			k_rank = "點數",
 			k_suit = "花色",
@@ -3631,7 +3631,7 @@ return {
 			k_uncommon = "罕見",
 			k_rare = "稀有",
 			k_legendary = "傳奇",
-			k_debuffed = "遭減益",
+			k_debuffed = "被弱化",
 			k_locked = "已鎖定",
 			k_undisovered = "未發現",
 			k_joker = "小丑",
@@ -3718,7 +3718,7 @@ return {
 			ph_sneak_peek = "先睹為快",
 			ph_deck_preview_stones = "石頭",
 			ph_deck_preview_effective = "因小丑、盲注同埋卡牌增強而產生嘅有效總數量",
-			ph_blind_score_at_least = "至少得分",
+			ph_blind_score_at_least = "目標分數",
 			ph_blind_reward = "獎勵： ",
 			ph_4_7_of_clubs = "四張梅花7",
 			ph_up_ante_1 = "提高底注",
@@ -3733,8 +3733,8 @@ return {
 			ph_game_over = "遊戲結束",
 			ph_you_win = "你獲勝了！",
 			ph_you_win_demo = "你喺試玩版中獲勝了！",
-			ph_vouchers_redeemed = "本賽局兌換嘅禮券",
-			ph_no_vouchers = "本賽局冇兌換禮券",
+			ph_vouchers_redeemed = "本賭局兌換嘅禮券",
+			ph_no_vouchers = "本賭局冇兌換禮券",
 			ph_defeat_this_blind_1 = "戰勝盲注",
 			ph_defeat_this_blind_2 = "發現它",
 			ph_click_confirm = "再按一下即可確認",
@@ -3754,7 +3754,7 @@ return {
 			ph_score_new_collection = "新發現",
 			ph_score_cards_played = "打出嘅牌",
 			ph_score_cards_discarded = "丟棄嘅牌",
-			ph_score_times_rerolled = "重擲次數",
+			ph_score_times_rerolled = "重抽次數",
 			ph_score_cards_purchased = "已選購嘅牌",
 			ph_unscored_hand = "出牌將唔會得分",
 			ph_alert_debuff_confirm = "再按一次「出牌」確認",
@@ -3896,7 +3896,7 @@ return {
 				"+#1#籌碼",
 			},
 			ml_holo_desc = {
-				"全像攝影",
+				"鐳射",
 				"+#1#倍數",
 			},
 			ml_polychrome_desc = {
@@ -3923,7 +3923,7 @@ return {
 				"每回合{C:red}-#1#{}棄牌次數",
 			},
 			ch_m_reroll_cost = {
-				"{C:money}$#1#{}重擲基本費用",
+				"{C:money}$#1#{}重抽基本費用",
 			},
 			ch_m_joker_slots = {
 				"{C:attention}#1#{}小丑牌欄位",
@@ -3977,7 +3977,7 @@ return {
 				"每{C:green}#1#{}張牌中有1張抽完會係冚住",
 			},
 			ch_c_debuff_played_cards = {
-				"所有{C:attention}打出過嘅{}牌喺計分後會遭到{C:attention}減益{}",
+				"所有{C:attention}打出過嘅{}牌喺計分後會遭到{C:attention}弱化{}",
 			},
 			ch_c_minus_hand_size_per_X_dollar = {
 				"每擁有{C:money}$#1#{}，就{C:red}-1{}張能持有嘅手牌",
