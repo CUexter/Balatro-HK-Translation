@@ -3,10 +3,9 @@
 --- MOD_ID: HK_Translation
 --- MOD_AUTHOR: [CUexter]
 --- MOD_DESCRIPTION: A translation that tries to capture HongKongese
---- PRIORITY: -10000
+--- PRIORITY: -1000
 ----------------------------------------------
 ------------MOD CODE -------------------------
---
 function SMODS.INIT.HK_Translation()
 	G.F_NO_ACHIEVEMENTS = false
 
@@ -43,9 +42,12 @@ function SMODS.INIT.HK_Translation()
 
 	local function apply_patch()
 		if G.LANG.key == "zh_HK" then
-			sendDebugMessage(NFS.read(lang_path))
 			G.localization = assert(loadstring(NFS.read(lang_path)))()
 			apply_sprites()
+			local jojotarots = SMODS.findModByID("JojoTs")
+			if jojotarots ~= nil then
+				SMODS.INIT.NegateTexturePack()
+			end
 			G.UIDEF.settings_tab = settings_trans
 		else
 			G.localization =
